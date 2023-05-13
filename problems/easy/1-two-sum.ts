@@ -11,7 +11,7 @@
 //     return []
 // };
 
-function twoSum(nums: number[], target: number): number[] {
+export function twoSum(nums: number[], target: number): number[] {
     const numberMap = new Map()
     for (const [i, num] of nums.entries()) {
         const numInMap = numberMap.get(target - num)
