@@ -1,3 +1,5 @@
+// Need to refine this
+
 export function addBinary(a: string, b: string): string {
   const numA = parseInt(a, 2)
   const numB = parseInt(b, 2)
